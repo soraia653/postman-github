@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "e26d075b-dd91-4e77-8705-e9b58c1b4551",
+		"name": "TestCollection123",
+		"description": "Buy or rent spacecrafts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Countries",
+			"id": "966e14d5-1fb5-4a1e-895d-e217a6cbc2d3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{countriesBaseUrl}}/all",
+					"host": [
+						"{{countriesBaseUrl}}"
+					],
+					"path": [
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search by country name",
+			"id": "99b765cd-a5ec-4c35-97c5-27f19e0f7a9b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{countriesBaseUrl}}/name/Portugal",
+					"host": [
+						"{{countriesBaseUrl}}"
+					],
+					"path": [
+						"name",
+						"Portugal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search countries by language",
+			"id": "161b106f-9802-4949-b311-8d6aebcc66e3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{countriesBaseUrl}}/lang/portuguese",
+					"host": [
+						"{{countriesBaseUrl}}"
+					],
+					"path": [
+						"lang",
+						"portuguese"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "X-Api-Key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{apiKey}}",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "5d71dff6-4dc1-48e1-9a7b-eeaa34e8f33b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "cfab9bab-ff08-4c2d-accb-bdddcdfa0e97",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
