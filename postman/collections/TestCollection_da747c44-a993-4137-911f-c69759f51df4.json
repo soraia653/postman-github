@@ -53,6 +53,28 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Search countries by language",
+			"id": "161b106f-9802-4949-b311-8d6aebcc66e3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/lang/portuguese",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"lang",
+						"portuguese"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"auth": {
