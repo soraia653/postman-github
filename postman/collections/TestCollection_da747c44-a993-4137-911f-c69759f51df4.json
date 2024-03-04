@@ -21,9 +21,9 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/all",
+					"raw": "{{countriesBaseUrl}}/all",
 					"host": [
-						"{{baseUrl}}"
+						"{{countriesBaseUrl}}"
 					],
 					"path": [
 						"all"
@@ -42,9 +42,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/name/Portugal",
+					"raw": "{{countriesBaseUrl}}/name/Portugal",
 					"host": [
-						"{{baseUrl}}"
+						"{{countriesBaseUrl}}"
 					],
 					"path": [
 						"name",
@@ -64,9 +64,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/lang/portuguese",
+					"raw": "{{countriesBaseUrl}}/lang/portuguese",
 					"host": [
-						"{{baseUrl}}"
+						"{{countriesBaseUrl}}"
 					],
 					"path": [
 						"lang",
