@@ -79,7 +79,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "3b486eb4-1bcb-4c45-bcba-47727e6b584d",
+				"id": "5d71dff6-4dc1-48e1-9a7b-eeaa34e8f33b",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -89,19 +89,12 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "ec9f4256-f07f-407e-9949-96195595209d",
+				"id": "cfab9bab-ff08-4c2d-accb-bdddcdfa0e97",
 				"type": "text/javascript",
 				"exec": [
 					""
 				]
 			}
-		}
-	],
-	"variable": [
-		{
-			"key": "baseUrl",
-			"value": "https://restcountries.com/v3.1",
-			"type": "string"
 		}
 	]
 }
